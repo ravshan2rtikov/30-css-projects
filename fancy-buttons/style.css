@@ -150,3 +150,50 @@
   box-shadow: 0 4px 0 hsl(54, 100%, 20%);
   box-shadow: 0 5px 0 hsl(54, 100%, 15%); 
 }
+
+/* GRADIENT BUTTONS */
+
+.gradient-bttn-1{
+  margin-top: 60px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: solid 10px transparent;
+  border-image: linear-gradient(to top right, orangered, yellow);
+  border-image-slice: 1;
+  color: orangered;
+  transition: all 0.3s ease-in-out;
+}
+
+  .gradient-bttn-1:hover{
+    background-image: linear-gradient(to top right, orangered, yellow);
+    color: white;
+  }
+
+.gradient-bttn-2{
+  margin-top: 60px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: solid 4px transparent;
+  border-image: linear-gradient(to right, orangered, transparent);
+  border-image-slice: 1;
+  color: orangered;
+  transition: all 0.3s ease-in-out;
+}
+
+  .gradient-bttn-2:hover{
+    background-image: linear-gradient(to right, orangered, transparent);
+    color: white;
+    border-right-style: none;
+  }
